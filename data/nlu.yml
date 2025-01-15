@@ -1,0 +1,181 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: list_courses
+  examples: |
+    - What courses do I have?
+    - Show my courses
+    - Which courses are available?
+    - List all my courses
+    - Tell me my courses
+
+- intent: ask_about_data_science
+  examples: |
+    - What is data science?
+    - Explain the role of a data scientist
+    - How do I start learning data science?
+    - What are the applications of data science?
+    - Can you tell me about data science tools?
+
+- intent: ask_about_machine_learning
+  examples: |
+    - What is machine learning?
+    - Explain supervised learning
+    - What are the types of machine learning?
+    - How does machine learning work?
+    - Can you tell me about neural networks?
+
+- intent: ask_about_artificial_intelligence
+  examples: |
+    - What is artificial intelligence?
+    - Explain AI and its applications
+    - How does AI differ from machine learning?
+    - What are the benefits of AI?
+    - Can you tell me about AI algorithms?
+
+- intent: ask_about_programming_languages
+  examples: |
+    - What are the best programming languages for AI?
+    - Should I learn Python or Java?
+    - Can you explain the difference between C++ and Python?
+    - What is JavaScript used for?
+    - How do I choose a programming language?
+
+- intent: ask_about_cybersecurity
+  examples: |
+    - What is cybersecurity?
+    - How do I secure my computer from hackers?
+    - Explain the concept of firewalls
+    - What are the types of cyber threats?
+    - Can you tell me about ethical hacking?
+
+- intent: ask_about_cloud_computing
+  examples: |
+    - What is cloud computing?
+    - How does cloud storage work?
+    - Can you explain AWS and its services?
+    - What are the benefits of using the cloud?
+    - How do I start learning cloud computing?
+
+- intent: ask_about_blockchain
+  examples: |
+    - What is blockchain?
+    - Can you explain how blockchain works?
+    - What are the applications of blockchain?
+    - How does cryptocurrency use blockchain technology?
+    - What is the difference between blockchain and a database?
+
+- intent: ask_about_big_data
+  examples: |
+    - What is big data?
+    - How is big data different from regular data?
+    - What tools are used for analyzing big data?
+    - Explain the concept of Hadoop
+    - How does big data impact businesses?
+
+- intent: ask_about_devops
+  examples: |
+    - What is DevOps?
+    - How do I start learning DevOps?
+    - Can you explain CI/CD in DevOps?
+    - What tools are commonly used in DevOps?
+    - What is the difference between Agile and DevOps?
+
+- intent: ask_faq
+  examples: |
+    - What is Rasa?
+    - On what technology are you built?
+    - How are you made?
+    - What is the tech stack used for building you?
+    - What is the technology stack used for making you?
+    - What is chatbot?  
+

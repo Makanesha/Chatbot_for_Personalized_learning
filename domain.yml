@@ -1,0 +1,78 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - ask_about_data_science
+  - ask_about_machine_learning
+  - ask_about_artificial_intelligence
+  - ask_about_programming_languages
+  - ask_about_cybersecurity
+  - ask_about_cloud_computing
+  - ask_about_blockchain
+  - ask_about_big_data
+  - ask_about_devops
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_list_courses:
+  - text: "Here are the available courses: \n1. Data Science Fundamentals \n2. Machine Learning Basics \n3. Introduction to Artificial Intelligence \n4. Cybersecurity Essentials \n5. Cloud Computing Overview \n6. Blockchain for Beginners \n7. Big Data Analytics \n8. DevOps Practices and Tools"
+
+
+  utter_ask_about_data_science:
+  - text: "Data science is an interdisciplinary field that uses scientific methods, processes, algorithms, and systems to extract knowledge and insights from structured and unstructured data. Common tools include Python, R, and SQL, with applications in fields like healthcare, finance, and marketing."
+
+  utter_ask_about_machine_learning:
+  - text: "Machine learning is a subset of artificial intelligence (AI) that enables systems to learn from data and improve performance without explicit programming. It includes techniques like supervised learning, unsupervised learning, and reinforcement learning."
+
+  utter_ask_about_artificial_intelligence:
+  - text: "Artificial intelligence (AI) is the simulation of human intelligence processes by machines, especially computer systems. Applications include natural language processing, computer vision, and robotics."
+
+  utter_ask_about_programming_languages:
+  - text: "Python is often considered the best programming language for beginners and AI due to its simplicity and robust libraries. JavaScript is widely used for web development, while Java and C++ are preferred for large-scale systems and performance-critical applications."
+
+  utter_ask_about_cybersecurity:
+  - text: "Cybersecurity involves protecting systems, networks, and data from cyberattacks. This includes techniques like encryption, firewalls, and intrusion detection. Ethical hacking and regular security audits are essential practices."
+
+  utter_ask_about_cloud_computing:
+  - text: "Cloud computing delivers computing services like storage, servers, and databases over the internet. AWS, Azure, and Google Cloud are popular platforms. Benefits include scalability, cost efficiency, and global accessibility."
+
+  utter_ask_about_blockchain:
+  - text: "Blockchain is a decentralized digital ledger technology where transactions are recorded across multiple systems. It is secure and transparent, often used in cryptocurrencies like Bitcoin and Ethereum."
+
+  utter_ask_about_big_data:
+  - text: "Big data refers to large, complex datasets that traditional data-processing tools cannot handle. Tools like Hadoop and Spark help manage and analyze big data. It has applications in predictive analytics, IoT, and business intelligence."
+
+  utter_ask_about_devops:
+  - text: "DevOps is a combination of practices and tools that enhance collaboration between software development and IT operations. It emphasizes automation, continuous integration/continuous deployment (CI/CD), and improving development cycles."
+
+  utter_ask_faq:
+  - text: "Rasa is an open-source machine learning framework for building contextual AI assistants and chatbots. Rasa has two main components: Rasa NLU and Rasa Core. Rasa NLU is responsible for understanding user messages, and Rasa Core is responsible for holding conversations and deciding what to do next. I am a chatbot made from RASA. "
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

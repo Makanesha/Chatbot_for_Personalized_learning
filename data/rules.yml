@@ -1,0 +1,70 @@
+version: "3.1"
+
+rules:
+
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: Say 'I am a bot' anytime the user challenges
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+- rule: Provide a list of available courses
+  steps:
+  - intent: list_courses
+  - action: utter_list_courses
+
+- rule: Provide information about Data Science
+  steps:
+  - intent: ask_about_data_science
+  - action: utter_ask_about_data_science
+
+- rule: Provide information about Machine Learning
+  steps:
+  - intent: ask_about_machine_learning
+  - action: utter_ask_about_machine_learning
+
+- rule: Provide information about Artificial Intelligence
+  steps:
+  - intent: ask_about_artificial_intelligence
+  - action: utter_ask_about_artificial_intelligence
+
+- rule: Provide information about Programming Languages
+  steps:
+  - intent: ask_about_programming_languages
+  - action: utter_ask_about_programming_languages
+
+- rule: Provide information about Cybersecurity
+  steps:
+  - intent: ask_about_cybersecurity
+  - action: utter_ask_about_cybersecurity
+
+- rule: Provide information about Cloud Computing
+  steps:
+  - intent: ask_about_cloud_computing
+  - action: utter_ask_about_cloud_computing
+
+- rule: Provide information about Blockchain
+  steps:
+  - intent: ask_about_blockchain
+  - action: utter_ask_about_blockchain
+
+- rule: Provide information about Big Data
+  steps:
+  - intent: ask_about_big_data
+  - action: utter_ask_about_big_data
+
+- rule: Provide information about DevOps
+  steps:
+  - intent: ask_about_devops
+  - action: utter_ask_about_devops
+
+- rule: Answering to FAQs
+  steps:
+  - intent: ask_faq
+  - action: utter_ask_faq
+
+
