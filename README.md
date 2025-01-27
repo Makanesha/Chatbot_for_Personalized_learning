@@ -1,5 +1,5 @@
 
-# Personalized Learning Chatbot
+# Personalized Learning Chatbot - MENTORIA
 
 This is a chatbot application built using **Rasa** and **Streamlit**, designed to provide personalized learning recommendations based on user queries. It uses YouTube tutorials as the primary source for educational content, retrieving relevant video recommendations based on the user's selected topic.
 
