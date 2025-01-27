@@ -20,8 +20,8 @@ This is a chatbot application built using **Rasa** and **Streamlit**, designed t
 ### 1. Clone the repository
 First, clone the repository to your local machine:
 ```bash
-git clone https://github.com/yourusername/personalized-learning-chatbot.git
-cd personalized-learning-chatbot
+git clone https://github.com/yourusername/Chatbot_for_Personalized_learning.git
+cd Chatbot_for_Personalized_learning
 ```
 
 ### 2. Install dependencies
