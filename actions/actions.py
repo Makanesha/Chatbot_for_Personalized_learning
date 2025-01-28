@@ -106,7 +106,7 @@ class ActionFetchYoutubeVideos(Action):
         return "action_fetch_youtube_videos"
 
     def __init__(self):
-        self.youtube = build('youtube', 'v3', developerKey='AIzaSyDYgNnQ_f5SIlTRGM8WfQhQhFMr1pSLCgg')
+        self.youtube = build('youtube', 'v3', developerKey='xxxxxxxxxxxxxxxxxxx')
 
     def get_video_details(self, video_id):
         try:
